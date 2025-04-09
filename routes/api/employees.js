@@ -1,40 +1,23 @@
 const express = require('express');
 const router = express.Router();
 const path = require('path');
+const empController = require('../../controllers/empController')
 
-const data = {};
-data.employees = require('../../data/employees.json');
 
 // Route for root path '/'
 router.route('/')
-    .get((req, res) => {
-        res.json(data.employees);
-    })
-    .post((req, res) => {
-        res.json({
-            "firstname": req.body.firstname,
-            "lastname": req.body.lastname
-        });
-    })
-    .put((req, res) => {
-        res.json({
-            'firstname': req.body.firstname,
-            'lastname': req.body.lastname
-        });
-    })
-    .delete((req, res) => {
-        res.json({
-            'id': req.body.id
-        });
-    });
+    .get(empController.getAllEmployees)
+    .post(empController.createNewEmployee)
+    .put(empController.updateEmployee)
+    .delete(empController.deleteEmployee);
 
 // Route for specific employee by ID
 router.route('/:id')
-    .get((req, res) => {
-        res.json({
-            'id': req.params.id
-        });
-    });
-    
+    .get(empController.getEmployee);
+
 
 module.exports = router;
+
+
+
+//MVC-model view controller: way to organize express app

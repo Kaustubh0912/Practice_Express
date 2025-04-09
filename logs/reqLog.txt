@@ -69,3 +69,10 @@
 2025-04-09 21:52:09	7f2452ea-15eb-4708-9799-7f41f98ab20c	DELETE	/api/employees	undefined
 2025-04-09 21:52:30	4bf9ccc2-e3c3-4cff-9535-babf05794197	DELETE	/api/employees	undefined
 2025-04-09 21:53:15	3bcb0093-493d-4e9f-929d-2a0eb4755227	DELETE	/api/employees	undefined
+2025-04-09 22:10:46	3392a34a-4be0-4df7-bf0b-a5a81185a78c	DELETE	/api/employees	undefined
+2025-04-09 22:10:53	0f02fcba-d446-4351-be28-fd4282b123f4	GET	/api/employees	undefined
+2025-04-09 22:10:56	8a27fbc3-5f8f-4e44-ab52-2b4377af844a	GET	/api/employees/1	undefined
+2025-04-09 22:11:32	d8bb57c2-4294-4697-83ee-f9784a113e86	POST	/api/employees	undefined
+2025-04-09 22:11:42	f3291261-c3b6-4321-a76f-8e4e92253623	PUT	/api/employees	undefined
+2025-04-09 22:13:22	080fcbb4-3eb6-4c42-bd22-af5d753a3291	GET	/employees	undefined
+2025-04-09 22:13:31	db89c4a3-e35b-4c77-9c59-3ab4dd95bf24	GET	/api/employees	undefined

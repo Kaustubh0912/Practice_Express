@@ -3,8 +3,8 @@ const path = require('path');
 const { logger } = require('./middleware/logEvents')
 const errorHandler = require('./middleware/errHandler')
 const cors = require('cors');
-const subDirRouter = require('./routes/subdir')
-const rootRouter =require('./routes/root')
+const corsOptions = require('./config/corsOptions')
+const rootRouter = require('./routes/root')
 const empRouter = require('./routes/api/employees')
 
 const app = express();
@@ -13,34 +13,19 @@ const port = process.env.PORT || 3000;
 //(built in middleware)
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
-app.use('/',express.static(path.join(__dirname, '/public')))
-app.use('/subdir',express.static(path.join(__dirname, '/public')))
+app.use('/', express.static(path.join(__dirname, '/public')))
 
 
 
 //(custom middleware)
 app.use(logger)
 //3rd party middleware
-const whiteList = ['www.kcozy.works', 'www.google.com']
-const corsOptions = {
-    origin: (origin, callback) => {
-        if (whiteList.indexOf(origin) !== -1 || !origin) {
-            callback(null, true)
-        }
-        else {
 
-            callback(new Error("NOT ALLOWED BY CORS"))
-        }
-
-    },
-    optionsSuccessStatus: 200
-}
 app.use(cors(corsOptions))
 
 //route
-app.use('/',rootRouter)
-app.use('/subdir',subDirRouter)
-app.use('/api/employees',empRouter)
+app.use('/', rootRouter)
+app.use('/api/employees', empRouter)
 
 
 app.use(errorHandler)
