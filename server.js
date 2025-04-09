@@ -5,6 +5,7 @@ const errorHandler = require('./middleware/errHandler')
 const cors = require('cors');
 const subDirRouter = require('./routes/subdir')
 const rootRouter =require('./routes/root')
+const empRouter = require('./routes/api/employees')
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -19,10 +20,6 @@ app.use('/subdir',express.static(path.join(__dirname, '/public')))
 
 //(custom middleware)
 app.use(logger)
-//route
-app.use('/',rootRouter)
-app.use('/subdir',subDirRouter)
-
 //3rd party middleware
 const whiteList = ['www.kcozy.works', 'www.google.com']
 const corsOptions = {
@@ -39,6 +36,12 @@ const corsOptions = {
     optionsSuccessStatus: 200
 }
 app.use(cors(corsOptions))
+
+//route
+app.use('/',rootRouter)
+app.use('/subdir',subDirRouter)
+app.use('/api/employees',empRouter)
+
 
 app.use(errorHandler)
 
