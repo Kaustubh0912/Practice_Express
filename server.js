@@ -7,7 +7,7 @@ const corsOptions = require('./config/corsOptions')
 const rootRouter = require('./routes/root')
 const empRouter = require('./routes/api/employees')
 const regRouter = require('./routes/api/registerRoute')
-const authRouter = require('./routes/api/auth')
+const authRouter = require('./routes/api/auth')     
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -17,12 +17,10 @@ app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 app.use('/', express.static(path.join(__dirname, '/public')))
 
-
-
 //(custom middleware)
 app.use(logger)
-//3rd party middleware
 
+//3rd party middleware
 app.use(cors(corsOptions))
 
 //route
