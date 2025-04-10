@@ -9,3 +9,9 @@
 2025-04-09 21:45:05	dfe5ef1c-c37d-4792-869f-7988d2cde6fc	TypeError	Cannot read properties of undefined (reading 'firstname')
 2025-04-09 21:48:29	3007cc89-10dc-479a-bcf9-df7b3f7c8272	SyntaxError	Expected property name or '}' in JSON at position 7 (line 2 column 5)
 2025-04-09 21:49:13	f77e301e-6c01-42ed-a23f-aac49adae599	SyntaxError	Expected ':' after property name in JSON at position 11 (line 2 column 9)
+2025-04-10 21:44:15	aa658edb-e88c-4c6e-a492-d7c90633b201	Error	Cannot set headers after they are sent to the client
+2025-04-10 21:44:40	40aee7df-a815-4e98-a5ed-332393090f67	Error	Cannot set headers after they are sent to the client
+2025-04-10 21:45:26	c5c98b3f-2454-4614-8819-466e61b55296	Error	Cannot set headers after they are sent to the client
+2025-04-10 21:45:33	ecc1688f-2469-4015-a5fb-c70a7fd0a315	Error	Cannot set headers after they are sent to the client
+2025-04-10 21:46:04	f3aac9ba-9c39-45e8-bd4d-637cdd3915cd	SyntaxError	Expected double-quoted property name in JSON at position 28 (line 3 column 1)
+2025-04-10 21:46:34	e376531b-e336-4563-ad23-ad6f61903116	Error	Cannot set headers after they are sent to the client

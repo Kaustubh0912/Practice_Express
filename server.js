@@ -7,6 +7,7 @@ const corsOptions = require('./config/corsOptions')
 const rootRouter = require('./routes/root')
 const empRouter = require('./routes/api/employees')
 const regRouter = require('./routes/api/registerRoute')
+const authRouter = require('./routes/api/auth')
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -28,6 +29,7 @@ app.use(cors(corsOptions))
 app.use('/', rootRouter)
 app.use('/api/employees', empRouter)
 app.use('/api/register', regRouter)
+app.use('/api/auth', authRouter)
 
 
 

@@ -84,3 +84,11 @@
 2025-04-10 21:00:44	45903414-144d-4af5-b4f9-90c5d3c236da	GET	/api/employees/1	undefined
 2025-04-10 21:05:24	d4e59b1e-0113-44d6-bff2-16336ae2cb0e	GET	/api/employees/1	undefined
 2025-04-10 21:27:24	04fad706-7784-402e-9853-b6f2d5a5fc6f	POST	/api/register	undefined
+2025-04-10 21:44:15	4e2fb0a6-3c87-4fed-b2e2-702fa7a8e43e	POST	/api/auth	undefined
+2025-04-10 21:44:40	894f5776-8385-4501-b296-7542f2feedd4	POST	/api/auth	undefined
+2025-04-10 21:45:26	a304ef5d-fc12-4ce0-a14d-b0d113e713ca	POST	/api/auth	undefined
+2025-04-10 21:45:33	c162234f-b1c9-4f6a-8ac5-b9dccd30cf3e	POST	/api/register	undefined
+2025-04-10 21:45:39	ff16e77e-4bc1-4ff8-8528-daea8c7e3741	POST	/api/register	undefined
+2025-04-10 21:46:17	e6c0c833-cddf-4c06-8aad-db1cecda0299	POST	/api/auth	undefined
+2025-04-10 21:46:34	be5787e8-4868-4e72-809f-b4eba32fead7	POST	/api/auth	undefined
+2025-04-10 21:47:01	f67ba292-f886-487d-bf85-02c1b63a1107	POST	/api/auth	undefined
