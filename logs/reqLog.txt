@@ -83,3 +83,4 @@
 2025-04-10 20:59:56	f7290825-d203-4f36-ba7f-d6936782f6ca	GET	/api/employees/1	undefined
 2025-04-10 21:00:44	45903414-144d-4af5-b4f9-90c5d3c236da	GET	/api/employees/1	undefined
 2025-04-10 21:05:24	d4e59b1e-0113-44d6-bff2-16336ae2cb0e	GET	/api/employees/1	undefined
+2025-04-10 21:27:24	04fad706-7784-402e-9853-b6f2d5a5fc6f	POST	/api/register	undefined
