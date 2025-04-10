@@ -76,3 +76,10 @@
 2025-04-09 22:11:42	f3291261-c3b6-4321-a76f-8e4e92253623	PUT	/api/employees	undefined
 2025-04-09 22:13:22	080fcbb4-3eb6-4c42-bd22-af5d753a3291	GET	/employees	undefined
 2025-04-09 22:13:31	db89c4a3-e35b-4c77-9c59-3ab4dd95bf24	GET	/api/employees	undefined
+2025-04-10 20:40:43	03acf2b5-e027-4cda-95df-b1b5d88c8a1c	GET	/	undefined
+2025-04-10 20:40:44	f130604f-6178-4466-a749-2d256f9d0246	GET	/favicon.ico	undefined
+2025-04-10 20:48:45	aaa0fde6-6707-433a-961d-6868e87a9788	POST	/api/employees	undefined
+2025-04-10 20:49:20	aee79ab0-61ff-44ac-a1bf-67879b0c0934	POST	/api/employees	undefined
+2025-04-10 20:59:56	f7290825-d203-4f36-ba7f-d6936782f6ca	GET	/api/employees/1	undefined
+2025-04-10 21:00:44	45903414-144d-4af5-b4f9-90c5d3c236da	GET	/api/employees/1	undefined
+2025-04-10 21:05:24	d4e59b1e-0113-44d6-bff2-16336ae2cb0e	GET	/api/employees/1	undefined

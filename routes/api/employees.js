@@ -12,7 +12,7 @@ router.route('/')
     .delete(empController.deleteEmployee);
 
 // Route for specific employee by ID
-router.route('/:id')
+router.route('/:_id')
     .get(empController.getEmployee);
 
 
