@@ -153,3 +153,10 @@
 2025-04-11 21:50:54	7918b640-ba2c-4b30-8034-43bf9eea3d14	GET	/api/logout	undefined
 2025-04-11 21:51:09	4a74fd0c-3b98-4b02-831b-dd3139081cef	GET	/api/auth	undefined
 2025-04-11 21:51:13	2c969c99-b662-450c-bd1e-d20a5c085d5e	POST	/api/auth	undefined
+2025-04-11 22:06:33	4c779b98-e458-452a-a7e7-3dac993b42d0	GET	/api/refresh	undefined
+2025-04-11 22:08:09	42b2640b-7e37-41f5-9757-f3edd2a04553	GET	/api/refresh	undefined
+2025-04-11 22:12:39	37a48aeb-22eb-4c1b-a470-227a03578a1a	POST	/api/register	undefined
+2025-04-11 22:12:45	ca286f55-0b97-4fc1-b561-c5f1787cf4eb	POST	/api/register	undefined
+2025-04-11 22:13:09	372b7572-b61f-428d-8a0f-ccdf106e1b2c	POST	/api/register	undefined
+2025-04-11 22:13:36	890cdde8-b596-44b5-9742-bb844c9c9bec	POST	/api/auth	undefined
+2025-04-11 22:13:43	13abc2c3-4888-4491-81aa-aa6b93589b28	POST	/api/auth	undefined
