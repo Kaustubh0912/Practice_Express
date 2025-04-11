@@ -1,23 +1,18 @@
 const express = require('express');
 const router = express.Router();
 const path = require('path');
-const empController = require('../../controllers/empController')
-
+const empController = require('../../controllers/empController');
+const verifyJWT = require('../../middleware/verifyJWT');
 
 // Route for root path '/'
 router.route('/')
-    .get(empController.getAllEmployees)
-    .post(empController.createNewEmployee)
-    .put(empController.updateEmployee)
-    .delete(empController.deleteEmployee);
+    .get(verifyJWT, empController.getAllEmployees)
+    .post(verifyJWT, empController.createNewEmployee)
+    .put(verifyJWT, empController.updateEmployee)
+    .delete(verifyJWT, empController.deleteEmployee);
 
 // Route for specific employee by ID
 router.route('/:_id')
-    .get(empController.getEmployee);
-
+    .get(verifyJWT, empController.getEmployee);
 
 module.exports = router;
-
-
-
-//MVC-model view controller: way to organize express app
